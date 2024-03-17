@@ -141,6 +141,16 @@ label {
 }
 
 input:focus {
- box-shadow: var(--main-color) 2px 2px 5px;
+ box-shadow: #aaaaaa 2px 2px 5px;
  outline: none;
+}
+
+input:focus#submit{
+  box-shadow: none;
+}
+
+.error-message {
+  font-family: 'Roboto';
+  color: var(--main-color);
+  font-size: 15px;
 }
