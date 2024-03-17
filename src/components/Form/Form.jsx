@@ -41,7 +41,7 @@ export default function Form() {
     if (!isValidEmail(formData.email)) {
       errors.email = "Introduzca un email válido.";
     }
-    if (!isValidPhoneNumber(formData.phone)) {
+    if (!isValidPhone(formData.phone)) {
       errors.phone = "Introduzca un número de teléfono válido.";
     }
     if (formData.message.length === 0) {
@@ -69,7 +69,7 @@ export default function Form() {
     return emailRegex.test(email);
   };
 
-  const isValidPhoneNumber = (phone) => {
+  const isValidPhone = (phone) => {
     const phoneRegex = /^\d{9,}$/;
     return phoneRegex.test(phone);
   };
