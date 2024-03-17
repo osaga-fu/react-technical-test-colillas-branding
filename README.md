@@ -1,6 +1,6 @@
 # React Technical Test Colillas Branding
 
-![Logo Colillas](./assets/logo%20colillas.svg)
+![Logo Colillas](./src/assets/logo%20colillas.svg)
 
 Junior frontend technical test using React for Colillas Branding
 
@@ -23,6 +23,18 @@ In order to launch the app you should use the following command:
 npm run dev
 ```
 
+In order to run the tests you should install the following:
+
+```
+npm -D vitest
+npm -D jsdom @testing-library/react @testing-library/jest-dom
+```
+
+For the tests to run use this command:
+
+```
+npm test
+```
 
 # Structure
 
@@ -32,4 +44,7 @@ On the *App.jsx* is where we load all of our components.
 
 We have an *assets* folder just like the other project where we have all the images we are going to be using.
 
-Inside the *src* folder, each component has its own folder with its own css.
+Inside the *src* folder, you will find the *components* folder wher each component has its own folder with its own css.
+
+You will also find inside *src* the *tests* folder.
+
