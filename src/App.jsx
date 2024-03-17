@@ -1,14 +1,14 @@
-import './App.css'
-import TopSection from './TopSection/TopSection'
+import "./App.css";
+import TopSection from "./components/TopSection/TopSection";
+import Advantages from "./components/Advantages/Advantages";
 
 function App() {
-
   return (
     <>
-    <TopSection/>
-  
+      <TopSection />
+      <Advantages />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

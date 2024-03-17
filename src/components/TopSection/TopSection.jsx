@@ -1,14 +1,14 @@
 import "./TopSection.css";
-import SvgArrow from "../SvgComponents/SvgArrow";
-import SvgColillasLogo from "../SvgComponents/SvgColillasLogo";
-import backgroundImage from "../assets/leone-venter-VieM9BdZKFo-unsplash.jpg"
+import SvgArrow from "../../SvgComponents/SvgArrow";
+import SvgColillasLogo from "../../SvgComponents/SvgColillasLogo";
+import backgroundImage from "../../assets/leone-venter-VieM9BdZKFo-unsplash.jpg";
 
 export default function TopSection() {
   return (
     <section className="top-section">
       <nav>
         <div className="colillas-logo">
-            <SvgColillasLogo />
+          <SvgColillasLogo />
         </div>
       </nav>
       <header>
