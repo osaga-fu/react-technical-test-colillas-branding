@@ -8,34 +8,34 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <footer>
-      <section class="footer-links">
-        <div class="link-column">
-          <h6 class="link-title">Fountainebleau</h6>
-          <p class="link-text">
+      <section className="footer-links">
+        <div className="link-column">
+          <h6 className="link-title">Fountainebleau</h6>
+          <p className="link-text">
             Cummerata Trail, 33
             <br />
             08012 Marianfort <br />
             (+34) 123 456 789
           </p>
-          <a class="link-mail" href="mailto:">
+          <a className="link-mail" href="mailto:">
             info@colillas.com
           </a>
         </div>
-        <div class="link-column">
-          <h6 class="link-title">Daly City</h6>
-          <p class="link-text">
+        <div className="link-column">
+          <h6 className="link-title">Daly City</h6>
+          <p className="link-text">
             N Front Street, 85
             <br />
             8895 Daly City <br />
             (+34) 123 456 789
           </p>
-          <a class="link-mail" href="mailto:">
+          <a className="link-mail" href="mailto:">
             hello@colillas.com
           </a>
         </div>
       </section>
-      <section class="footer-credits">
-        <div class="social-links">
+      <section className="footer-credits">
+        <div className="social-links">
           <a
             href="https://www.facebook.com/"
             target="_blank"
@@ -78,11 +78,11 @@ export default function Footer() {
             </div>
           </a>
         </div>
-        <div class="credits">
-          <p class="credits-text">© 2024 All rights reserved.</p>
-          <div class="credits-links">
+        <div className="credits">
+          <p className="credits-text">© 2024 All rights reserved.</p>
+          <div className="credits-links">
             <a
-              class="credits-text"
+              className="credits-text"
               href="https://colillas.com/en/"
               target="_blank"
               rel="noopener noreferrer"
@@ -90,7 +90,7 @@ export default function Footer() {
               Privacy Policy
             </a>
             <a
-              class="credits-text"
+              className="credits-text"
               href="https://colillas.com/en/"
               target="_blank"
               rel="noopener noreferrer"
@@ -98,7 +98,7 @@ export default function Footer() {
               Terms of Service
             </a>
             <a
-              class="credits-text"
+              className="credits-text"
               href="https://colillas.com/en/"
               target="_blank"
               rel="noopener noreferrer"
