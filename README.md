@@ -17,6 +17,13 @@ You need to install node modules:
 npm install
 ```
 
+In order to launch the app you should use the following command:
+
+```
+npm run dev
+```
+
+
 # Structure
 
 On the *index.css* we have the formatting and the fonts we need for the project.
