@@ -58,9 +58,17 @@ export default function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      console.log("Formulario válido, se puede enviar:", formData);
+      alert("El formulario ha sido enviado correctamente");
+      setFormData({
+        name: "",
+        company: "",
+        email: "",
+        phone: "",
+        message: "",
+        checkboxTerms: false,
+      })
     } else {
-      console.log("Formulario inválido, por favor corrija los errores.");
+      alert("Formulario inválido, por favor corrija los errores.");
     }
   };
 
